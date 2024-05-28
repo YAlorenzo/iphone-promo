@@ -1,8 +1,20 @@
-# React + Vite
+# 📱 iPhone 15 Pro Showcase
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+iPhone 15 Pro Showcase is a single-page website designed to demonstrate animations using GSAP and working with 3D models through Three.js. The site provides an interactive experience of viewing the 3D model of the iPhone 15 Pro, allowing users to enjoy visual effects and animations.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+- **3D Model**: Interactive 3D model of the iPhone 15 Pro created using Three.js and react-three-fiber.
+- **Animations**: Stunning animations on the site implemented with GSAP.
+- **Error Tracking**: Integration with Sentry for error tracking and management.
+- **Modern Design**: The site is styled using Tailwind CSS to create a modern and attractive interface.
+
+## Tech Stack
+
+- **Frontend**: React, Vite
+- **Animations**: GSAP
+- **3D Models**: Three.js, react-three-fiber
+- **Styling**: Tailwind CSS
+- **Error Tracking**: Sentry
