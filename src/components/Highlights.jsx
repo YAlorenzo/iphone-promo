@@ -4,21 +4,13 @@ import { rightImg, watchImg } from "../utils";
 import { ScrollTrigger } from "gsap/all";
 gsap.registerPlugin(ScrollTrigger);
 import VideoCarousel from "./VideoCarousel";
+import { animateWithGsap } from "../utils/animation";
 
 const Highlights = () => {
   useGSAP(() => {
-    gsap.to("#title", {
-      scrollTrigger: "#container-link-animation",
-      opacity: 1,
-      y: 0,
-    });
-    gsap.to(".link", {
-      scrollTrigger: "#container-link-animation",
-      opacity: 1,
-      y: 0,
-      duration: 1,
-      stagger: 0.25,
-    });
+    animateWithGsap("#title", "to", { y: 0, opacity: 1 });
+    animateWithGsap(".link", "to", { y: 0, opacity: 1, duration: 1, stagger: 0.25, });
+    
   }, []);
 
   return (
